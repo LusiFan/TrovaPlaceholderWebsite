@@ -1,9 +1,11 @@
 .nav{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     margin-top: 40px;
+    margin-left: 5vw;
+    margin-right:5vw;
     color: white;
 }
 
@@ -23,10 +25,10 @@ button{
     background-size: cover;
     background-repeat: no-repeat;
     height: calc(100vh - 50px);
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-around; */
     
   }
 
@@ -42,9 +44,11 @@ button{
  }
 
   .jumboCopy {
-    width: 70%;
     color: white;
     text-align: center;
+    margin-top: 150px;
+    padding-left: 25vw;
+    padding-right: 25vw;
   }
 
 .lead{
